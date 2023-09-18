@@ -1,0 +1,19 @@
+<html>
+<head>
+    <script>
+        function inicio(nombre) {
+            respuesta = confirm("¿El nombre de tu centro es :" + nombre+" ?");
+            alert(respuesta);
+            if(respuesta==true) {
+                alert("Enhorabuena");
+                console.log("Enhorabuena consola");
+            } else {
+                alert("Lo sentimos");
+                console.log("Lo sentimos consola");
+            }
+        }
+
+        inicio("Santa Catalina");
+    </script>
+</head>
+</html>
